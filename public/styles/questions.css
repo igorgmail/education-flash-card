@@ -1,0 +1,83 @@
+.questions-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions-block>.card {
+  width: 70%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.button-wrap {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button-wrap>button {
+  width: 80%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-title {
+  font-family: 'Lobster', cursive;
+}
+
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.check-true {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 20px;
+}
+
+.check-false {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 20px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.set2 {
+  color: black;
+}
+
+.decks-wrap {
+  justify-content: space-around;
+}
+
+.deck-item {
+  width: 25%;
+  height: 50%;
+}
+
+.deck-img {
+  width: 100%;
+}
+
+.decks-title {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
